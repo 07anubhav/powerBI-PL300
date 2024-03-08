@@ -1,0 +1,6 @@
+1. PowerBI Desktop
+	- We have 2 kind of view in powerBI desktop
+		- Report view	- This is used when we have only 1 table
+		- Table view	- This will show the table in the form of excel
+						- We can't edit the data in table view
+		- Model view 	- If we have more than 1 tables not much used

@@ -1,0 +1,19 @@
+1. Prepare the data
+	- Get the data from different data sources
+	- Clean, transform, and load the data
+
+2. Model the data
+	- Design a data model
+	- Develop data model
+	- Create model calculations by using DAX
+	- Optimize model performance
+
+3. Visualize and analyze the data
+	- Create reports
+	- Create dashboards
+	- Enhance reports for usability and storytelling
+	- Identify pattern and trends
+
+4. Deploy and maintain assets
+	- Manage files and datasets
+	- Manage workspaces

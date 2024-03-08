@@ -1,0 +1,34 @@
+* For formatting our visuals we already have a format icon on the right hand side
+* To open the visual in formatting mode 'just double click on the visuals'
+
+* The visuals have circular dots at the edges, that indicates that you want to use the visualisation (i.e i can click on a particular item and it might interact with other visualisation as well)
+* If our visuals is in format mode there will be square dots at the edges, that indicates we want to focus on formatting 
+
+* The 'Style Presets' in format pane will override the existing formatting that you have done on your visuals
+
+* Position Visual:
+	- if you are in format mode you cannot change the width of the columns
+	- There might be some people who cant read whats written on the screen so for them we can:
+		- goto Format Pane and then goto 'Properties' -> Alt text -> Give yout text there (they have some softwares via which they can know what is there on visuals)
+
+* Aligning Visual: (Putting one visual over the top on the other one)
+	- select 2 diff visuals using CTRL+Left click -> Format (in menu bar) -> align as u want
+
+* Format Painter:
+	- If we have multiple visualization and now we decide to change the style of them
+	- click on the visual from which u want to copy the style -> click on Format painted in menu bar -> click on another visual
+
+* Configuring summarization, both default and in a specific visualisation:
+	- let suppose you want to add a extra column in your visualisation i.e. 'Average price'
+	- select the visual and then add the column 'Average price' from the table, but the issue is it'll add a column based on sum of average price
+	- so, to deal with above problem, goto Build a visual -> In values, change the aggregate function of 'Average' from 'Sum'
+	- Now, let suppose u already added average price column and you want to add one more column of average price, to do that select 'Average price' column from Data pane and click on the column, the 'Data/Drill' bar will appear in menu bar
+	- Then we can change the default the Summarization of the 'Average price' column
+
+* Changing number and date formatting:
+	- Click on the column name that is there on Data pane -> Column tools -> Change the formatting
+	- This will change the formatting in the already existing visuals as well, and for all the places that column is used
+	- If you to change for specific column, then select the visual -> Format pane -> specific column -> select the column and update the formatting (decimal places and Units)
+
+* Custom number and date formatting:
+	- Select the visual -> goto Data pane -> select the column -> goto column tools in menu bar -> we will be able to see Format
